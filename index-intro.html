@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ciao questo è il mio sito di introduzione ad HTML">
+    <title>HTML intro</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <a href="http://"></a>
+    </header>
+    <!-- Fine header -->
+    <!-- Main -->
+    <main>
+
+        <!-- Tag testuali  -->
+        <section>
+            <!-- h1 deve essere unico in pagina html -->
+            <!-- Titoli,paragrafi sono tag di blocco, occupano tutta la linea e non permettono ad altri elementi di posizionarsi a loro fianco -->
+            <h1>Intro tag testuali</h1>
+            <h2>Titolo2</h2>
+            <h3>Titolo3</h3>
+            <h4>Titolo4</h4>
+            <h5>Titolo5</h5>
+            <h6>Titolo6</h6>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto laboriosam provident voluptatibus minima
+                maiores
+                quibusdam, recusandae rerum in quas corporis dignissimos, repellendus distinctio atque! Harum quo error
+                eos cum
+                sunt?
+                Eius earum esse est aliquam minus possimus non repellendus et nisi suscipit officiis voluptatem quisquam
+                expedita eos nemo eligendi, id at cumque ex iusto eum ea libero? Sunt, commodi animi?
+                Sit, voluptatum provident quidem neque beatae, perferendis unde optio consectetur, velit magni
+                distinctio
+                quaerat tempora et ipsa corporis! Accusamus consectetur dicta vitae quidem? Tempore ipsam quia
+                aspernatur quas,
+                deserunt tenetur?
+                Deserunt delectus molestias sed atque quos? Soluta, ab tempore ipsam veritatis accusantium autem at eum,
+                adipisci consequuntur a nemo error impedit amet natus. Magnam sequi sit eius blanditiis rem consectetur.
+                Quasi, dolorum quidem sunt sint expedita placeat adipisci esse deleniti.
+                <!-- Tag come strong sono tag in line e permettono ad altri elementi di posizionarsi a loro fianco -->
+
+                <strong>Testo importante</strong>
+                Deserunt, laborum a optio nesciunt blanditiis vitae eligendi! Illo inventore numquam reprehenderit.
+                Omnis
+                <em>aperiam odio totam saepe officia </em>
+                ducimus maxime!
+            </p>
+        </section>
+
+        <!-- Fine tag testuali   -->
+
+        <!-- Tag inline  -->
+        <section>
+            <h2>Introduzione ai tag inline</h2>
+            <!-- Buttons e anchor tag  -->
+            <!-- Anchor apre una nuova pagina in base all'indirizzo indicato nell'attributo href -->
+            <a href="https://www.w3schools.com/html/default.asp#gsc.tab=0">questo è il link</a>
+
+            <!-- Button serve per eseguire una azione in pagina o inviare dei dati al server -->
+            <button>Sono un bottone</button>
+            <!-- Tag dell'imagine  -->
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY44vsW5y8VIB910WhoOmCkRsXAUgA3YXyLw&s"
+                alt="montagna">
+
+            <img src="./img/monte.jpg" alt="montagna">
+        </section>
+        <!-- Fine tag inline   -->
+
+
+
+
+        <hr>
+
+
+
+        <!-- lista tag  -->
+        <section>
+            <!-- lista ordinata -->
+            <div>
+                <h2>lista ordinata</h2>
+                <ol>
+                    <li>inter</li>
+                    <li>napoli</li>
+                    <li>milan</li>
+                </ol>
+            </div>
+
+            <!-- lista non ordinata -->
+            <div>
+                <h2>lista non ordinata</h2>
+                <ul>
+                    <li>pane</li>
+                    <li>latte</li>
+                    <li>mele</li>
+                </ul>
+            </div>
+
+            <!-- scrivi una lista annidata tipo una lista di classi di boolean-->
+            <div>
+                <h2>lista annidata</h2>
+                <!-- Lista annidata -->
+                <ol>
+                    <!-- Primo elemento -->
+                    <li>
+                        <h3>Classe 145</h3>
+                        <p>Elecono studenti:</p>
+                        <!-- Lista interna -->
+                        <ul>
+                            <li>Marco 12</li>
+                            <li>Luca 10</li>
+                            <li>Lucia 8</li>
+                        </ul>
+                    </li>
+                    <!-- Secondo elemnto -->
+                    <li>Classe 2</li>
+                    <!-- Terzo elemento -->
+                    <li>Classe 3</li>
+
+                </ol>
+            </div>
+        </section>
+        <!-- fine lista tag  -->
+
+        <hr>
+
+        <!-- tabella -->
+        <section>
+            <h2>introduzione alle tabelle</h2>
+            <table>
+
+                <!-- Heading della tabella, intestazione delle colonne -->
+                <thead>
+
+                    <!-- Riga -->
+                    <tr>
+
+                        <!-- Cella di intestazione -->
+                        <!-- Th è la cella piu importante -->
+                        <th>Numero </th>
+                        <th>Nome</th>
+                        <th>prezzo</th>
+                    </tr>
+                </thead>
+                <!-- Dati della tabella -->
+                <tbody>
+                    <tr>
+
+                        <!-- td indica il table data, devo essere tanti quanti i th -->
+                        <td>1</td>
+                        <td>Latte</td>
+                        <td>&euro; 3</td>
+                    </tr>
+                    <tr>
+                        <!-- td indica il table data, devo essere tanti quanti i th -->
+                        <td>2</td>
+                        <td>Caffe</td>
+                        <td>&euro; 2</td>
+                    </tr>
+
+                </tbody>
+                <!-- Footer, conclusione della tabella, opzionale -->
+                <tfoot>
+                    <tr>
+                        <!-- td indica il table data, devo essere tanti quanti i th -->
+                        <td colspan="2">somma dei prezzi dei prodotti</td>
+
+                        <td>&euro; 3</td>
+                    </tr>
+
+                </tfoot>
+            </table>
+        </section>
+        <!-- Fine tabella -->
+
+    </main>
+    <!-- Fine Main -->
+
+    <hr>
+
+    <!-- Inizio footer -->
+    <footer>
+        <p>&copy; Made by Damiano145 &hearts;</p>
+    </footer>
+    <!-- Fine footer -->
+
+</body>
+
+</html>
